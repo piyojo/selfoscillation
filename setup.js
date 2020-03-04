@@ -1,5 +1,6 @@
 
 
+
 // todo: setVolume with slider for both 
 // todo: play stop button for both 
 // todo: spiral icon? 
@@ -21,4 +22,5 @@ function draw() {
     sos.setVolume(sliderVolume.value());
     sos.rate(sliderRate.value());
 }
+
 
