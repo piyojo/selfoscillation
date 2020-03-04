@@ -10,5 +10,7 @@
 			"path": "C:\\Dev\\Tutorials"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "06_button-for-Ide"
+	}
 }
