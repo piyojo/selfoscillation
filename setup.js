@@ -1,5 +1,8 @@
 
 
+var sos;
+var sol;
+var button;
 
 // todo: setVolume with slider for both 
 // todo: play stop button for both 
@@ -8,13 +11,24 @@
 function setup() {
     //sol = loadSound('./_sound/selfoscalation-long.mp3', loaded);
     sos = loadSound('./_sound/selfoscalation-short.mp3', loaded);
+    button = createButton('play'); 
+    button.mousePressed(togglePlaying);  
     sliderVolume = createSlider(0, 1, 0.5, 0.01);
     sliderRate = createSlider(0, 3, 1, 0.01);
 }
 
-function loaded() {
-    //sol.play();
+function togglePlaying() {
+    if(!sos.isPlaying()) {
     sos.play();
+    button.html('stop');
+    } else {
+        sos.stop();
+        button.html('play');
+    }
+}
+
+function loaded() {
+console.log('loaded');
 }
 
 function draw() {
