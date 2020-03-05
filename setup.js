@@ -20,13 +20,13 @@ function setup() {
     sliderVolume = createSlider(0, 1, 0.5, 0.01);
     sliderRate = createSlider(0, 3, 1, 0.01);
 
-    header1.position(100, 30);
-    header2.position(70, 60)
-    button.position(80, 210); 
-    sliderVolume.position(250, 160);
-    header3.position(210, 130);
-    header4.position(170, 300);
-    sliderRate.position(180, 330);
+    header1.position(70, 30);
+    header2.position(40, 60)
+    button.position(50, 210); 
+    sliderVolume.position(220, 160);
+    header3.position(190, 130);
+    header4.position(140, 300);
+    sliderRate.position(150, 330);
 
 }
 
