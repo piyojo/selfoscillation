@@ -19,13 +19,14 @@ function setup() {
     button.mousePressed(togglePlaying);  
     sliderVolume = createSlider(0, 1, 0.5, 0.01);
     sliderRate = createSlider(0, 3, 1, 0.01);
-    header1.position(150, 30);
-    header2.position(120, 60)
-    button.position(130, 210); 
-    sliderVolume.position(300, 160);
-    header3.position(260, 130);
-    header4.position(220, 300);
-    sliderRate.position(230, 330);
+
+    header1.position(100, 30);
+    header2.position(70, 60)
+    button.position(80, 210); 
+    sliderVolume.position(250, 160);
+    header3.position(210, 130);
+    header4.position(170, 300);
+    sliderRate.position(180, 330);
 
 }
 
