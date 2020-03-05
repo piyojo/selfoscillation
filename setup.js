@@ -10,7 +10,7 @@ var button;
 // todo: some kind of loop?
 function setup() {
     //sol = loadSound('./_sound/selfoscalation-long.mp3', loaded);
-    sos = loadSound('../_sound/selfoscalation-short.mp3', loaded);
+    sos = loadSound('./_sound/selfoscalation-short.mp3', loaded);
     button = createButton('play'); 
     button.mousePressed(togglePlaying);  
     sliderVolume = createSlider(0, 1, 0.5, 0.01);
