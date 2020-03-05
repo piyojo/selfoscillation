@@ -1,13 +1,11 @@
 
 
 var sos;
-var sol;
 var button;
 
-// todo: setVolume with slider for both 
-// todo: play stop button for both 
+// todo: style the app with p5.dom
 // todo: spiral icon? 
-// todo: some kind of loop?
+// todo: later, make a bass oscillator with filter and resonance
 function setup() {
     sos = loadSound('./selfoscillation.mp3', loaded);
     button = createButton('play'); 
