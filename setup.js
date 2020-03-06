@@ -49,4 +49,4 @@ function draw() {
     sos.rate(sliderRate.value());
 }
 
-
+console.log('kati is lief');
